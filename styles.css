@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+}
+
+
+/* Header Section */
+
+#header {
+    padding: 5px;
+    background-color: #003680;
+}
+
+
+/* Crop logo and place left */
+
+#logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+/* Style Heading & Place Inline */
+
+h2 {
+    color: white;
+    text-decoration: solid;
+    display: inline;
+    margin-left: 15px;
+}
+
+
+/* Navigation Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/* Horizontal */
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change link color on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/* Main Content */
+
+main {
+    background-color: #E5EAEE;
+}
+
+
+/*Set all images to the same size*/
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+
+
+/*Set the pictures to align next to each other*/
+
+.city {
+    width: 40%;
+    display: inline-block;
+    align-items: center;
+    padding: 4%;
+    text-align: center;
+}
+
+
+/* Figure Caption */
+
+.figurecaption {
+    border: 2px solid #C6C8C9;
+    width: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+h4 {
+    color: #3DB0D8;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* Attributes of Main Heading */
+
+h3 {
+    color: #3DB0D8;
+    font-size: 36px;
+    text-shadow: 1px 1px 2px darkblue;
+    text-align: center;
+}

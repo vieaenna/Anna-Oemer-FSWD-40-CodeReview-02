@@ -1,0 +1,110 @@
+@import 'font'
+ 
+$background-color: #003680;
+
+header
+	padding: 5px;
+	background-color: $background-color;
+
+#logo
+	height: 40px;
+	width: 40px;
+
+/* Navigation Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Horizontal */
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+#Berlin {
+	width: 100%;
+}
+
+#Prague {
+	width: 100%; 
+}
+
+h2 {
+	color: white;
+	text-decoration: solid;
+	display: inline;
+	margin-left: 5px; 
+}
+
+main {
+	background-color: #E5EAEE; 
+}
+
+
+nav {
+	@include navigation-list;
+}
+
+/*
+ ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ li { display: inline-block; }
+
+ a {
+   display: block;
+   padding: 6px 12px;
+   text-decoration: none;
+ } */
+}
+
+@mixin flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin navigation-list {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    > li{
+        display:block;
+        float:left;
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}
+
+%box {
+  border: 1px solid #C6C8C9;
